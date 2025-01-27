@@ -1,4 +1,4 @@
-export const command = "/usr/bin/osascript -l JavaScript focusmode/getfocus.javascript";
+export const command = "/usr/bin/osascript -l JavaScript FocusMode/getfocus.javascript";
 
 export const refreshFrequency = 10000;   // 3600000 = 10 sec
 
@@ -22,7 +22,7 @@ export const render = ({output, error}) => {
   } else {
     return(
       <div>
-        <img className="focus" height="100" src="focusmode/moon.png" />
+        <img className="focus" height="100" src="FocusMode/moon.png" />
       </div>
     )
   }
